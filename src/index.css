@@ -11,3 +11,154 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Header  */
+
+.col i:hover {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+/* shipping payment */
+#login {
+  background-color: rgba(109, 201, 109, 0.76);
+  color: white;
+}
+
+#login:hover {
+  border: 3px solid rgba(109, 201, 109, 0.76);
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px rgba(109, 201, 109, 0.76);
+}
+
+#signup {
+  border: 3px solid silver;
+}
+
+#signup:hover {
+  /* border: 2px solid rgba(109, 201, 109, 0.76); */
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px silver;
+}
+
+/* payment method */
+
+.col-sm-4 {
+  border: 2px solid silver;
+
+}
+
+.col-sm-4:hover {
+  cursor: pointer;
+  border: 1px solid silver;
+
+  box-shadow: 2px 3px 3px silver;
+}
+
+/* delivery method */
+#deli1 {
+  border: 2px solid silver;
+}
+
+#deli1:hover {
+  cursor: pointer;
+  border: 2px solid silver;
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px silver;
+}
+
+#deli2 {
+  border: 2px solid silver;
+}
+
+#deli2:hover {
+  cursor: pointer;
+  border: 2px solid silver;
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px silver;
+}
+
+#deli3 {
+  border: 2px solid silver;
+}
+
+#deli3:hover {
+  cursor: pointer;
+  border: 2px solid silver;
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px silver;
+}
+
+#deli4 {
+  border: 2px solid silver;
+}
+
+#deli4:hover {
+  cursor: pointer;
+  border: 2px solid silver;
+  transform: scale(1.1);
+  box-shadow: 2px 3px 3px silver;
+}
+
+
+
+#total {
+  margin: 16px;
+  padding: 20px;
+  background-color: rgba(230, 225, 225, 0.904);
+}
+
+#continue {
+  border: 3px solid rgba(109, 201, 109, 0.76);
+  padding: 15px 35px;
+}
+
+#continue:hover {
+  background-color: rgba(109, 201, 109, 0.76);
+  border: 3px solid rgba(109, 201, 109, 0.76);
+  transform: scale(1.1);
+
+}
+
+#shopping {
+  border: 3px solid rgba(109, 201, 109, 0.76);
+  background-color: rgba(109, 201, 109, 0.76);
+  padding: 15px 35px;
+}
+
+#shopping:hover {
+  transform: scale(1.1);
+}
+
+.mx-2:hover {
+  cursor: pointer;
+  font: bold;
+  transform: scale(1.1);
+  text-shadow: 2px 3px 3px silver;
+}
+
+/* Login  */
+
+#googlebtn {
+  border: 3px solid rgba(109, 201, 109, 0.76);
+  background-color: rgba(109, 201, 109, 0.76);
+  color: white;
+}
+
+
+#facebookbtn {
+  border: 3px solid rgba(109, 201, 109, 0.76);
+  background-color: rgba(109, 201, 109, 0.76);
+  color: white;
+}
+
+#Submit {
+  border: 3px solid rgba(109, 201, 109, 0.76);
+
+}
+
+#Submit:hover {
+  background-color: rgba(109, 201, 109, 0.76);
+
+}
